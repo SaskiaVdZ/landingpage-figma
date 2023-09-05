@@ -75,6 +75,7 @@ section {
     
 }
 
+
 nav, li {
      display: inline-block;
      color: #1B0A42;
@@ -84,6 +85,11 @@ nav, li {
      line-height: 24px;
      letter-spacing: 0.32px;
      margin-left: 97px;
-     margin-top: 0;
+     
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
